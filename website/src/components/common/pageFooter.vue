@@ -28,7 +28,7 @@
           <p @click="goBar('/about')">联系我们</p>
           <span>邮箱：1234567@qq.com</span>
           <span>电话：021-55802368</span>
-          <span>地址：上海市杨浦区翔殷路128号12号楼101</span>
+          <span>地址：湖北省武汉市光谷金融街</span>
         </li>
       </ul>
       <!-- <img src="../../assets/images/ercode.png" alt /> -->
@@ -52,6 +52,8 @@ export default {
     goBar (path) {
       document.documentElement.scrollTop = document.body.scrollTop = 0
       this.$router.push({ path })
+      // location.reload()
+      // this.$router.go(0)
     }
   },
   computed: {
@@ -115,6 +117,7 @@ export default {
     }
   }
   .copyright {
+    text-align: center;
     height: 30px;
     background: #125688;
     span {

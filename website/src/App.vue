@@ -38,7 +38,8 @@ export default {
 }
 
 .content {
-  height: 1260px;
+  // height: 1260px;
+  height: 1000px;
   // height: 660px;
 }
 .head {
