@@ -39,8 +39,10 @@ export default {
 
 .content {
   // height: 1260px;
-  height: 1000px;
-  // height: 660px;
+  // height: 1000px;
+  // min-height: 900px;
+  // max-height: 100%;
+  height: 100%;
 }
 .head {
   background-color: #fff;

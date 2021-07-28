@@ -1,21 +1,36 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-    <el-button type="primary">去home</el-button>
+  <div class="know">
+    <page-title msg="关于" />
   </div>
 </template>
 
 <script>
+import pageTitle from '@/components/common/commonTitle'
+import methods from '@/components/know/index.js'
+
+
 export default {
-  name: "About",
+  name: 'Know',
+  components: {
+    pageTitle,
+  },
   data () {
     return {
 
     }
   },
   methods: {
+    ...methods
+  },
+  created () {
 
   }
-};
-
+}
 </script>
+
+
+
+
+<style lang="scss" scoped >
+// @import '../components/about/index.scss';
+</style>

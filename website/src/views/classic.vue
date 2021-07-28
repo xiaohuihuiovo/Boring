@@ -1,24 +1,34 @@
 <template>
-  <div class="daima">
-    <classic />
+  <div class="classic">
+    <page-title msg="经典案例" />
   </div>
 </template>
 
 <script>
-import classic from '@/components/classic'
+import pageTitle from '@/components/common/commonTitle'
+import methods from '@/components/classic/index.js'
+
 
 export default {
-  name: 'Classic',
+  name: 'classic',
   components: {
-    classic,
+    pageTitle,
   },
   data () {
     return {
 
     }
+  },
+  methods: {
+    ...methods
+  },
+  created () {
+
   }
 }
 </script>
 
+
 <style lang="scss" scoped >
+@import '../components/classic/index.scss';
 </style>

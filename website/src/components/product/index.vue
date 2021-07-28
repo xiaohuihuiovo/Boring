@@ -10,7 +10,7 @@
                 <img src=""
                      alt="">
               </div>
-              <div class="product-text"></div>
+              <div class="product-text">111</div>
               <div class="product-mark"></div>
             </div>
           </el-col>

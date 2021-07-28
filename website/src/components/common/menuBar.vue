@@ -4,18 +4,14 @@
       <!-- <img src="../../assets/images/toplogo.png" alt /> -->
     </div>
     <ul class="head-bar">
-      <li
-        v-for="(item, index) of menuList"
-        :key="item.id"
-        :class="{ selectedColor: selectIndex === index }"
-        @click="addStyle(index)"
-      >
+      <li v-for="(item, index) of menuList"
+          :key="item.id"
+          :class="{ selectedColor: selectIndex === index }"
+          @click="addStyle(index)">
         <!-- @mouseenter="handleMenuItemMouseEnterOrLeave(index, true)"
         @mouseleave="handleMenuItemMouseEnterOrLeave(index, false)" -->
-        <router-link
-          :to="{ name: item.path }"
-          :class="{ current: currentMenu === item.id ? true : false }"
-        >
+        <router-link :to="{ name: item.path }"
+                     :class="{ current: currentMenu === item.id ? true : false }">
           <!-- <i :class="item.icon"></i> -->
           <span class="bar-name">{{ item.name }}</span>
         </router-link>
@@ -97,9 +93,9 @@ export default {
   justify-content: space-between;
   align-content: center;
   width: 1240px;
-
   margin: 0 auto;
   background-color: #fff;
+  // border-bottom: 1px solid #5c5c5c;
 
   .logo {
     width: 280px;

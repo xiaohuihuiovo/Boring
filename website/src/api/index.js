@@ -1,5 +1,6 @@
 
-const URL = 'http://172.22.105.5:3000/'
+// const URL = 'http://172.22.105.5:3000/'
+const URL = '//localhost:3000/'
 
 export default {
   // 图片路径

@@ -1,0 +1,123 @@
+.news {
+    // height: 700px;
+    height: 100%;
+  .importance-events{
+    // padding-top: 100px;
+    // width: 1680px;
+    // width: 100%;
+    // height: 935px;
+    height: 100%;
+    padding-bottom: 30px;
+    overflow: hidden;
+    .events-content{
+      width: 1680px;
+      height: 100%;
+      padding-top: 50px ;
+    .events-left{
+      // width: 100%;
+      // height: 100%;
+      // border-right: 1px #5c5c5c solid;
+    h2{
+      font-size: 30px;
+    }
+    h4 {
+        margin: 30px 0 30px 0 ;
+      }
+    .banner-img {
+      width: 888px;
+      height: 485px;
+      cursor: pointer;
+      > img {
+          width: 100%;
+          height: 100%;
+          }
+        }      
+    }
+    .events-right{
+      padding:90px 0  0 100px;
+      .right-box{
+        height: 520px;
+        border-left: 1px dashed #0f0f0f;    
+        padding-top: 1px;
+        .event-name{
+          padding-left: 20px;
+          // border-left: 1px dashed #0f0f0f;
+          .content{
+            position: relative;
+            cursor: pointer;
+            margin-top: 100px;
+            height: 100%;
+            .circle{
+              position: absolute;
+              top: 0;
+              left: -32px;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              border: 1px solid #aaa;           
+            }
+            .title{
+              margin-left: 10px;
+            }          
+          }
+          .ischecked{
+            .circle{
+              background-color: #aaa;
+            }
+            span{
+              color: #0f0f0f;
+              font-weight: bold;
+            }
+          }
+        }
+        }
+    }
+  }
+  }
+  .news-container{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    .news-detail{          
+      width: 1920px;
+      height: 100%;
+      padding: 50px 100px 0 100px;
+      .detail-box{
+        position: relative;
+        cursor: pointer;
+        // width: 1510px;
+        width: 100%;
+        padding: 20px;
+        // height: 100%;
+        background-color: #F9F9F9;
+        .img-box{
+          width: 30%;
+        .img{
+          width: 445px;
+          height: 250px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+        .contents{
+          margin-left: 20px;
+          width: 68%;
+          .data{
+            margin: 40px 0 40px 0;
+          }
+          .news-content{
+
+          }
+          .readall{
+            position: absolute; 
+            bottom: 20px;        
+            right: 30px;
+            color: #2B5BB3;
+          }
+        }
+      }
+    }
+  }
+}
